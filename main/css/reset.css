@@ -1,0 +1,56 @@
+/* RESET.CSS
+   Joao Lucas Reset.CSS File
+   License: MIT
+   Modified in 12/09/2024
+*/
+
+/* basic */
+*, *::before, *::after{
+    box-sizing: border-box; 
+}
+
+
+body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ul[class], ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ImportanResefSet - Joao Lucas (eu | me) */
+ b,h1,h2,h3,h4,h5,h6,strong{font-weight:bolder}*{line-height:1.15;-webkit-font-smoothing:antialiased;overflow-wrap:break-word;box-sizing:border-box}h1,h2,h3,h4,h5,h6{margin:0;line-height:calc(1em + .5rem)}hr{margin:7px}iframe{border:0}abbr[title]{border-bottom:.1em dotted;cursor:help}body{margin:0}[hidden],template{display:none}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}h1,h2,h3,h4,h5,h6,p{margin-top:0;letter-spacing:0}dfn,i,var{font-style:italic}img,svg,video{max-width:100%}button,input,select,textarea{font:inherit}#__next,#root{isolation:isolate}bdo{unicode-bidi:bidi-override}big{font-size:larger}textarea{overflow:auto}small{font-size:80%}:not(h1,h2,h3,h5,h6,small),h4{font-size:100%}h1{font-size:2em}h2{font-size:1.5em}h3{font-size:1.17em}h5{font-size:.83em}h6{font-size:.67em}mark{background:#ff0}[unselectable=on],button,canvas,img,select,svg{user-select:none;-webkit-user-select:none;-moz-user-select:none;-o-user-select:none;-khtml-user-select:none}img{border-style:none}table{border-collapse:collapse;border-spacing:0}a[href]{text-decoration:underline}@media only screen and (max-width:480px){:not(h1,h2,h3,h5,h6,small){font-size:97.89%}small{font-size:87%}::-webkit-scrollbar{display:none;width:0;scrollbar-width:0px;visibility:hidden;opacity:0}}@media only screen and (min-width:1200px){:not(h1,h2,h3,h5,h6,small){font-size:105.89%}small{font-size:89.76%}}
